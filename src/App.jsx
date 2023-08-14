@@ -2,6 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import NavBar from "./Navbar";
 import resim from "../resim/elon.jpg";
 import resim2 from "../resim2/tesla.jpg";
 import resim3 from "../resim3/paypal.png";
@@ -37,28 +38,8 @@ function App() {
 
   return (
     <>
-      <nav class="navbar">
-        <ul>
-          <li class="ana">
-            <a href="#">HOME</a>
-          </li>
-          <li class="TodoList">
-            <a href="#">TODO LİST</a>
-          </li>
-          <li class="navsirketler">
-            <a href="#">COMPANIES</a>
-          </li>
-          <li>
-            {" "}
-            <a href="#">ELON MUSK</a>
-          </li>
-        </ul>
-      </nav>
-
+      <NavBar />
       <br />
-      <br />
-      <br />
-      <div></div>
 
       <div class="container mt-5">
         <div class="row d-flex justify-content-center">
@@ -77,6 +58,7 @@ function App() {
                 <h5 class="mt-2 mb-0">Elon Musk</h5>
                 <div>
                   <h1 class="slider-companys">COMPANIES</h1>
+                  
                   <MySlider />
                 </div>
                 <br />
