@@ -1,7 +1,6 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
-import "./App.css";
 import NavBar from "./Navbar";
 import resim from "../resim/elon.jpg";
 import resim2 from "../resim2/tesla.jpg";
@@ -37,101 +36,103 @@ function App() {
   }
 
   return (
-    <>
+    <> <div className="bg-[#eee]">
+
+    
       <NavBar />
       <br />
 
-      <div class="container mt-5">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-7">
-            <div class="card p-3 py-4">
+      <div className="container mt-5">
+        <div className="row d-flex justify-content-center">
+          <div className="col-md-7">
+            <div className="card p-3 py-4">
               {/*tarık salur resim   */}
 
               <div>
-                <img class="img-re" src={resim} alt="elon.jpg" />
+                <img className="img-re" src={resim} alt="elon.jpg" />
               </div>
 
-              <div class="text-center mt-3">
-                <span class="bg-secondary p-1 px-4 rounded text-white">
+              <div className="text-center mt-3">
+                <span className="bg-secondary p-1 px-4 rounded text-white">
                   PROFİLE
                 </span>
-                <h5 class="mt-2 mb-0">Elon Musk</h5>
+                <h5 className="mt-2 mb-0">Elon Musk</h5>
                 <div>
-                  <h1 class="slider-companys">COMPANIES</h1>
+                  <h1 className="slider-companys">COMPANIES</h1>
                   
                   <MySlider />
                 </div>
                 <br />
                 <br />
                 <div>
-                  <div class="content">
+                  <div className="content">
                     <div>
                       <br />
                       <br />
-                      <span class="sirketler">Companies</span>
+                      <span className="sirketler">Companies</span>
                       <br />
                       <br />
                       <a
-                        class="link-tesla"
+                        className="link-tesla"
                         href="https://www.tesla.com/tr_tr"
                         target="_blank"
                       >
-                        <ul class="ul-one">
-                          <li class="one">Tesla</li>
+                        <ul className="ul-one">
+                          <li className="one">Tesla</li>
                         </ul>
                       </a>
                       <a
-                        class="link-tesla"
+                        className="link-tesla"
                         href="https://www.paypal.com/tr/home"
                         target="_blank"
                       >
-                        <ul class="ul-one">
-                          <li class="one">Paypal</li>
+                        <ul className="ul-one">
+                          <li className="one">Paypal</li>
                         </ul>
                       </a>
                       <a
-                        class="link-tesla"
+                        className="link-tesla"
                         href="https://twitter.com/"
                         target="_blank"
                       >
-                        <ul class="ul-one">
-                          <li class="one">Twitter</li>
+                        <ul className="ul-one">
+                          <li className="one">Twitter</li>
                         </ul>
                       </a>
                       <a
-                        class="link-tesla"
+                        className="link-tesla"
                         href="https://openai.com/"
                         target="_blank"
                       >
-                        <ul class="ul-one">
-                          <li class="one">OpenAI</li>
+                        <ul className="ul-one">
+                          <li className="one">OpenAI</li>
                         </ul>
                       </a>
                       <a
-                        class="link-tesla"
+                        className="link-tesla"
                         href="https://www.spacex.com/"
                         target="_blank"
                       >
-                        <ul class="ul-one">
-                          <li class="one">SpaceX</li>
+                        <ul className="ul-one">
+                          <li className="one">SpaceX</li>
                         </ul>
                       </a>
                       <a
-                        class="link-tesla"
+                        className="link-tesla"
                         href="https://www.boringcompany.com/"
                         target="_blank"
                       >
-                        <ul class="ul-one">
-                          <li class="two">The Boring Company</li>
+                        <ul className="ul-one">
+                          <li className="two">The Boring Company</li>
                         </ul>
                       </a>
                     </div>
                     <div>
-                      <span class="kariyer">Career</span>
+                      <span className="kariyer">Career</span>
                     </div>
 
                     <div>
-                      <p class="text">
+                      <p className="text">
                         Musk, 1995'te Stanford’da uygulamalı fizik ve malzeme
                         bilimi alanında doktoraya başladı. Ancak iki gün sonra
                         kardeşi Kimbal Musk’la beraber yeni organizasyonlar için
@@ -141,9 +142,9 @@ function App() {
                         nakit ve 34 milyon dolarlık hisse senedi vererek satın
                         aldı.
                       </p>
-                      <p class="text">
+                      <p className="text">
                         <a
-                          class="link-tesla"
+                          className="link-tesla"
                           href="https://www.paypal.com/tr/home"
                           target="_blank"
                         >
@@ -155,7 +156,7 @@ function App() {
                         X.com ile aynı büyüklükte bir açık artırma sistemi olan
                         Confinity’yi bünyesine katarak PayPal’ı oluşturdu.
                         <a
-                          class="link-tesla"
+                          className="link-tesla"
                           href="https://www.spacex.com/"
                           target="_blank"
                         >
@@ -166,7 +167,7 @@ function App() {
                         Exploration Technologies’i SpaceX, Haziran 2002’de
                         kurdu.
                         <a
-                          class="link-tesla"
+                          className="link-tesla"
                           href="https://www.tesla.com/tr_tr"
                           target="_blank"
                         >
@@ -185,7 +186,7 @@ function App() {
                         Tesla’ya uzun vadeli yatırımcı olarak kazandırmayı
                         başarmıştır.
                         <a
-                          class="link-tesla"
+                          className="link-tesla"
                           href="https://www.boringcompany.com/"
                           target="_blank"
                         >
@@ -194,7 +195,7 @@ function App() {
                         Musk, 2016 yılında tüneller inşa etmek için The Boring
                         Company'yi TBC kurdu.{" "}
                         <a
-                          class="link-tesla"
+                          className="link-tesla"
                           href="https://www.twitter.com/"
                           target="_blank"
                         >
@@ -203,7 +204,7 @@ function App() {
                         Musk , 2022 yılında büyük Amerikan sosyal ağ hizmeti
                         Twitter'ı 44 milyar dolara satın almayı kabul etti.{" "}
                         <a
-                          class="link-tesla"
+                          className="link-tesla"
                           href="https://openai.com/"
                           target="_blank"
                         >
@@ -222,26 +223,26 @@ function App() {
                     </div>
                   </div>
 
-                  <div class="sidebar">
-                    <img class="img-tesla" src={resim2} alt="tesla.jpg" />
+                  <div className="sidebar">
+                    <img className="img-tesla" src={resim2} alt="tesla.jpg" />
                     <br />
                     <br />
                     <a
-                      class="link-tesla"
+                      className="link-tesla"
                       href="https://www.paypal.com/tr/home"
                       target="_blank"
                     >
-                      <img class="img-paypal" src={resim3} alt="paypal.png" />
+                      <img className="img-paypal" src={resim3} alt="paypal.png" />
                     </a>
                     <br />
                     <br />
                     <a
-                      class="link-tesla"
+                      className="link-tesla"
                       href="https://www.tesla.com/tr_tr"
                       target="_blank"
                     >
                       <img
-                        class="img-teslamblem"
+                        className="img-teslamblem"
                         src={resim4}
                         alt="tesla-ablem.jpg"
                       />
@@ -249,38 +250,38 @@ function App() {
                     <br />
                     <br />
                     <a
-                      class="link-tesla"
+                      className="link-tesla"
                       href="https://www.boringcompany.com/"
                       target="_blank"
                     >
-                      <img class="img-theb" src={resim5} alt="theboroing.png" />
+                      <img className="img-theb" src={resim5} alt="theboroing.png" />
                     </a>
                     <br />
                     <br />
                     <a
-                      class="link-tesla"
+                      className="link-tesla"
                       href="https://www.twitter.com/"
                       target="_blank"
                     >
-                      <img class="img-twitter" src={resim6} alt="twitter.png" />
+                      <img className="img-twitter" src={resim6} alt="twitter.png" />
                     </a>
                     <br />
                     <br />
                     <a
-                      class="link-tesla"
+                      className="link-tesla"
                       href="https://www.spacex.com/"
                       target="_blank"
                     >
-                      <img class="img-spacex" src={resim7} alt="spacex.jpg" />
+                      <img className="img-spacex" src={resim7} alt="spacex.jpg" />
                     </a>
                     <br />
                     <br />
                     <a
-                      class="link-tesla"
+                      className="link-tesla"
                       href="https://openai.com/"
                       target="_blank"
                     >
-                      <img class="img-open" src={resim8} alt="open.png" />
+                      <img className="img-open" src={resim8} alt="open.png" />
                     </a>
                   </div>
                 </div>
@@ -290,7 +291,7 @@ function App() {
         </div>
       </div>
 
-      <div className="App">
+      <div classNameName="App">
         <h1>Todo List </h1>
 
         <input
@@ -302,13 +303,13 @@ function App() {
 
         <button onClick={() => addItem()}>Add</button>
 
-        <ul class="ul-list">
+        <ul className="ul-list">
           {items.map((item) => {
             return (
-              <li class="li-list" key={item.id}>
+              <li className="li-list" key={item.id}>
                 {item.value}{" "}
                 <button
-                  class="btn-delete"
+                  className="btn-delete"
                   onClick={() => deleteItem(item.id)}
                 ></button>
               </li>
@@ -322,6 +323,7 @@ function App() {
       <br />
       <br />
       <br />
+      </div>
     </>
   );
 }

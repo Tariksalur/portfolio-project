@@ -8,7 +8,6 @@ import resim6 from "../resim6/twitter.png";
 import resim7 from "../resim7/spacex.jpg";
 import resim8 from "../resim8/open.png";
 import resim9 from "../resim9/thobbo.png";
-import "./App.css";
 const MySlider = () => {
   const settings = {
     dots: true,
@@ -19,24 +18,24 @@ const MySlider = () => {
   };
 
   return (
-    <Slider class="slidera" centerMode {...settings}>
+    <Slider className="slidera" centerMode {...settings}>
       <div>
-        <img class="img-paypal" src={resim3} alt="paypal.png" />
+        <img className="img-paypal" src={resim3} alt="paypal.png" />
       </div>
       <div>
-        <img class="img-teslamblem" src={resim4} alt="tesla-ablem.jpg" />
+        <img className="img-teslamblem" src={resim4} alt="tesla-ablem.jpg" />
       </div>
       <div>
-        <img class="img-twitter" src={resim9} alt="thobbo.png" />
+        <img className="img-twitter" src={resim9} alt="thobbo.png" />
       </div>
       <div>
-        <img class="img-twitter" src={resim6} alt="twitter.png" />
+        <img className="img-twitter" src={resim6} alt="twitter.png" />
       </div>
       <div>
-        <img class="img-spacex" src={resim7} alt="spacex.jpg" />
+        <img className="img-spacex" src={resim7} alt="spacex.jpg" />
       </div>
       <div>
-        <img class="img-open" src={resim8} alt="open.png" />
+        <img className="img-open" src={resim8} alt="open.png" />
       </div>
     </Slider>
   );
