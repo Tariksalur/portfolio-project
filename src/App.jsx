@@ -39,7 +39,7 @@ function App() {
     <> <div className="bg-[#eee]">
 
     
-      <NavBar />
+      <NavBar className=" "/>
       <br />
 
       <div className="container mt-5">
@@ -49,7 +49,7 @@ function App() {
               {/*tarık salur resim   */}
 
               <div>
-                <img className="img-re" src={resim} alt="elon.jpg" />
+                <img className="h-64 ms-40" src={resim} alt="elon.jpg" />
               </div>
 
               <div className="text-center mt-3">
