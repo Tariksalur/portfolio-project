@@ -2,14 +2,14 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import NavBar from "./Navbar";
-import resim from "../resim/elon.jpg";
-import resim2 from "../resim2/tesla.jpg";
-import resim3 from "../resim3/paypal.png";
-import resim4 from "../resim4/tesla-ablem.jpg";
-import resim5 from "../resim5/theboroing.png";
-import resim6 from "../resim6/twitter.png";
-import resim7 from "../resim7/spacex.jpg";
-import resim8 from "../resim8/open.png";
+import Elonimage from "./assets/resim/elon.jpg";
+import Teslaimage from "./assets/resim/tesla.jpg";
+import Paypalimage from "./assets/resim/paypal.png";
+import Teslamlem from "./assets/resim/tesla-ablem.jpg";
+import Theboroimage from "./assets/resim/theboroing.png";
+import Twitterimage from "./assets/resim/twitter.png";
+import Spaceximage from "./assets/resim/spacex.jpg";
+import Openİmage from "./assets/resim/open.png";
 import React from "react";
 import MySlider from "./MySlider";
 
@@ -49,7 +49,7 @@ function App() {
               {/*tarık salur resim   */}
 
               <div>
-                <img className="h-64 ms-40" src={resim} alt="elon.jpg" />
+                <img className="h-64 ms-40" src={Elonimage} alt="elon.jpg" />
               </div>
 
               <div className="text-center mt-3">
@@ -224,7 +224,7 @@ function App() {
                   </div>
 
                   <div className="sidebar">
-                    <img className="img-tesla" src={resim2} alt="tesla.jpg" />
+                    <img className="img-tesla" src={Teslaimage} alt="tesla.jpg" />
                     <br />
                     <br />
                     <a
@@ -232,7 +232,7 @@ function App() {
                       href="https://www.paypal.com/tr/home"
                       target="_blank"
                     >
-                      <img className="img-paypal" src={resim3} alt="paypal.png" />
+                      <img className="img-paypal" src={Paypalimage} alt="paypal.png" />
                     </a>
                     <br />
                     <br />
@@ -243,7 +243,7 @@ function App() {
                     >
                       <img
                         className="img-teslamblem"
-                        src={resim4}
+                        src={Teslamlem}
                         alt="tesla-ablem.jpg"
                       />
                     </a>
@@ -254,7 +254,7 @@ function App() {
                       href="https://www.boringcompany.com/"
                       target="_blank"
                     >
-                      <img className="img-theb" src={resim5} alt="theboroing.png" />
+                      <img className="img-theb" src={Theboroimage} alt="theboroing.png" />
                     </a>
                     <br />
                     <br />
@@ -263,7 +263,7 @@ function App() {
                       href="https://www.twitter.com/"
                       target="_blank"
                     >
-                      <img className="img-twitter" src={resim6} alt="twitter.png" />
+                      <img className="img-twitter" src={Twitterimage} alt="twitter.png" />
                     </a>
                     <br />
                     <br />
@@ -272,7 +272,7 @@ function App() {
                       href="https://www.spacex.com/"
                       target="_blank"
                     >
-                      <img className="img-spacex" src={resim7} alt="spacex.jpg" />
+                      <img className="img-spacex" src={Spaceximage} alt="spacex.jpg" />
                     </a>
                     <br />
                     <br />
@@ -281,7 +281,7 @@ function App() {
                       href="https://openai.com/"
                       target="_blank"
                     >
-                      <img className="img-open" src={resim8} alt="open.png" />
+                      <img className="img-open" src={Openİmage} alt="open.png" />
                     </a>
                   </div>
                 </div>

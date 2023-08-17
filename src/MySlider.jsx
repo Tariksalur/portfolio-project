@@ -2,12 +2,12 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import resim3 from "../resim3/paypal.png";
-import resim4 from "../resim4/tesla-ablem.jpg";
-import resim6 from "../resim6/twitter.png";
-import resim7 from "../resim7/spacex.jpg";
-import resim8 from "../resim8/open.png";
-import resim9 from "../resim9/thobbo.png";
+import Paypalimg from "./assets/resim/paypal.png";
+import teslaAblm from "./assets/resim/tesla-ablem.jpg";
+import Twitterimg from "./assets/resim/twitter.png";
+import Spaceximg from "./assets/resim/spacex.jpg";
+import Openimg from "./assets/resim/open.png";
+import Thobboimg from "./assets/resim/thobbo.png";
 const MySlider = () => {
   const settings = {
     dots: true,
@@ -20,22 +20,22 @@ const MySlider = () => {
   return (
     <Slider className="slidera" centerMode {...settings}>
       <div>
-        <img className="img-paypal" src={resim3} alt="paypal.png" />
+        <img className="img-paypal" src={Paypalimg} alt="paypal.png" />
       </div>
       <div>
-        <img className="img-teslamblem" src={resim4} alt="tesla-ablem.jpg" />
+        <img className="img-teslamblem" src={teslaAblm} alt="tesla-ablem.jpg" />
       </div>
       <div>
-        <img className="img-twitter" src={resim9} alt="thobbo.png" />
+        <img className="img-twitter" src={Thobboimg} alt="thobbo.png" />
       </div>
       <div>
-        <img className="img-twitter" src={resim6} alt="twitter.png" />
+        <img className="img-twitter" src={Twitterimg} alt="twitter.png" />
       </div>
       <div>
-        <img className="img-spacex" src={resim7} alt="spacex.jpg" />
+        <img className="img-spacex" src={Spaceximg} alt="spacex.jpg" />
       </div>
       <div>
-        <img className="img-open" src={resim8} alt="open.png" />
+        <img className="img-open" src={Openimg} alt="open.png" />
       </div>
     </Slider>
   );
