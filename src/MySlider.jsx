@@ -18,24 +18,24 @@ const MySlider = () => {
   };
 
   return (
-    <Slider className="slidera" centerMode {...settings}>
+    <Slider className="flex justify-center w-[100vw] " centerMode {...settings}>
       <div>
-        <img className="img-paypal" src={Paypalimg} alt="paypal.png" />
+        <img className="px-16" src={Paypalimg} alt="paypal.png" />
       </div>
       <div>
-        <img className="img-teslamblem" src={teslaAblm} alt="tesla-ablem.jpg" />
+        <img className="px-16" src={teslaAblm} alt="tesla-ablem.jpg" />
       </div>
       <div>
-        <img className="img-twitter" src={Thobboimg} alt="thobbo.png" />
+        <img className="px-16" src={Thobboimg} alt="thobbo.png" />
       </div>
       <div>
-        <img className="img-twitter" src={Twitterimg} alt="twitter.png" />
+        <img className="px-16" src={Twitterimg} alt="twitter.png" />
       </div>
       <div>
-        <img className="img-spacex" src={Spaceximg} alt="spacex.jpg" />
+        <img className="px-16" src={Spaceximg} alt="spacex.jpg" />
       </div>
       <div>
-        <img className="img-open" src={Openimg} alt="open.png" />
+        <img className="px-16" src={Openimg} alt="open.png" />
       </div>
     </Slider>
   );
