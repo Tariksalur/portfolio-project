@@ -67,16 +67,18 @@ function App() {
                 </div>
                 <MySlider />
                 <div>
-                  <div className="content mt-[80px]  bg-[#1680c2] mb-[100px] text-center justify-center ml-[25.8%] h-[900px]">
+                  <div className="content mt-[80px]  bg-[#1680c2] mb-[100px] text-center justify-center ml-[25.8%] text-[black]  h-[2200px]">
                     <div>
-                      <span className="mt-32 font-[serif] text-[50px]  ">Companies</span>
+                      <span className="mt-32 font-[serif] text-[50px]  ">
+                        Companies
+                      </span>
                       <div className="mt-[40px] text-[#eee]">
                         <a
                           className="link-tesla"
                           href="https://www.tesla.com/tr_tr"
                           target="_blank"
                         >
-                          <ul className="font-[serif] text-[40px] mb-[30px]">
+                          <ul className="font-[serif] text-[35px] mb-[30px] hover:text-[black]">
                             <li className="one">Tesla</li>
                           </ul>
                         </a>
@@ -85,16 +87,17 @@ function App() {
                           href="https://www.paypal.com/tr/home"
                           target="_blank"
                         >
-                          <ul className="font-[serif] text-[35px] mb-[30px]">
+                          <ul className="font-[serif] text-[35px] mb-[30px] hover:text-[black] ">
                             <li className="one">Paypal</li>
                           </ul>
                         </a>
+
                         <a
                           className="link-tesla"
                           href="https://twitter.com/"
                           target="_blank"
                         >
-                          <ul className="font-[serif] text-[35px] mb-[30px]">
+                          <ul className="font-[serif] text-[35px] mb-[30px] hover:text-[black]">
                             <li className="one">Twitter</li>
                           </ul>
                         </a>
@@ -103,7 +106,7 @@ function App() {
                           href="https://openai.com/"
                           target="_blank"
                         >
-                          <ul className="font-[serif] text-[35px] mb-[30px]">
+                          <ul className="font-[serif] text-[35px] mb-[30px] hover:text-[black]  ease-in-out ">
                             <li className="one">OpenAI</li>
                           </ul>
                         </a>
@@ -112,7 +115,7 @@ function App() {
                           href="https://www.spacex.com/"
                           target="_blank"
                         >
-                          <ul className="font-[serif] text-[35px] mb-[30px]">
+                          <ul className="font-[serif] text-[35px] mb-[30px] hover:text-[black]">
                             <li className="one">SpaceX</li>
                           </ul>
                         </a>
@@ -121,18 +124,20 @@ function App() {
                           href="https://www.boringcompany.com/"
                           target="_blank"
                         >
-                          <ul className="font-[serif] text-[35px] mb-[30px]">
+                          <ul className="font-[serif] text-[35px] mb-[30px] hover:text-[black]">
                             <li className="two">The Boring Company</li>
                           </ul>
                         </a>
                       </div>
                     </div>
                     <div>
-                      <span className="kariyer">Career</span>
+                      <span className="font-[serif] text-[35px] mb-[30px] ">
+                        Career
+                      </span>
                     </div>
 
                     <div>
-                      <p className="text">
+                      <p className="text-[20.5px] px-[200px] mt-[30px]">
                         Musk, 1995'te Stanford’da uygulamalı fizik ve malzeme
                         bilimi alanında doktoraya başladı. Ancak iki gün sonra
                         kardeşi Kimbal Musk’la beraber yeni organizasyonlar için
@@ -142,13 +147,15 @@ function App() {
                         nakit ve 34 milyon dolarlık hisse senedi vererek satın
                         aldı.
                       </p>
-                      <p className="text">
+                      <p className="text-[20.5px] px-[200px] ">
                         <a
                           className="link-tesla"
                           href="https://www.paypal.com/tr/home"
                           target="_blank"
                         >
-                          <h3>PayPal</h3>
+                          <h3 className="font-[serif] text-[35px] mt-[20px] mb-[20px]">
+                            PayPal
+                          </h3>
                         </a>
                         PayPal Musk, 1999 yılının mart ayında bir çevrimiçi
                         finans ve ödeme servisi olan X.com’un ortak kuruculuğunu
@@ -160,7 +167,9 @@ function App() {
                           href="https://www.spacex.com/"
                           target="_blank"
                         >
-                          <h3>SpaceX</h3>
+                          <h3 className="font-[serif] text-[35px] mt-[20px] mb-[20px]">
+                            SpaceX
+                          </h3>
                         </a>
                         SpaceX Musk, eski ABD başkanı Barack Obama ile Falcon 9
                         fırlatma tesisinde, 2010 Musk, üçüncü şirketi Space
@@ -171,7 +180,9 @@ function App() {
                           href="https://www.tesla.com/tr_tr"
                           target="_blank"
                         >
-                          <h3>Tesla Motors</h3>
+                          <h3 className="font-[serif] text-[35px] mt-[20px] mb-[20px]">
+                            Tesla Motors
+                          </h3>
                         </a>
                         Tesla Motors ilk olarak elektrikli bir spor araba olan
                         Tesla Roadster’ı üretti ve otuz bir ülkede yaklaşık
@@ -190,7 +201,10 @@ function App() {
                           href="https://www.boringcompany.com/"
                           target="_blank"
                         >
-                          <h3> The Boring Company</h3>
+                          <h3 className="font-[serif] text-[35px] mt-[20px] mb-[20px]">
+                            {" "}
+                            The Boring Company
+                          </h3>
                         </a>
                         Musk, 2016 yılında tüneller inşa etmek için The Boring
                         Company'yi TBC kurdu.{" "}
@@ -199,12 +213,14 @@ function App() {
                           href="https://www.twitter.com/"
                           target="_blank"
                         >
-                          <h3>Twitter</h3>
+                          <h3 className="font-[serif] text-[35px] mt-[20px] mb-[20px]">
+                            Twitter
+                          </h3>
                         </a>
                         Musk , 2022 yılında büyük Amerikan sosyal ağ hizmeti
                         Twitter'ı 44 milyar dolara satın almayı kabul etti.{" "}
                         <a
-                          className="link-tesla"
+                          className="link-tesla font-[serif] text-[35px] mt-[20px] mb-[20px]"
                           href="https://openai.com/"
                           target="_blank"
                         >
@@ -223,80 +239,56 @@ function App() {
                     </div>
                   </div>
 
-                  <div className="sidebar">
+                  <div className="sidebar bg-[#114363] mt-[80px]   mb-[100px] text-center justify-center ml-[25.8%] text-[black]  h-[2200px]">
                     <img
-                      className="img-tesla"
+                      className="img-musk h-[250px] mx-[370px] "
                       src={Teslaimage}
                       alt="tesla.jpg"
                     />
 
-                    <a
-                      className="link-tesla"
-                      href="https://www.paypal.com/tr/home"
-                      target="_blank"
-                    >
+                    <a href="https://www.paypal.com/tr/home" target="_blank">
                       <img
-                        className="img-paypal"
+                        className="  h-[250px]"
                         src={Paypalimage}
                         alt="paypal.png"
                       />
                     </a>
 
-                    <a
-                      className="link-tesla"
-                      href="https://www.tesla.com/tr_tr"
-                      target="_blank"
-                    >
+                    <a href="https://www.tesla.com/tr_tr" target="_blank">
                       <img
-                        className="img-teslamblem"
+                        className="img-teslamblem h-[250px]"
                         src={Teslamlem}
                         alt="tesla-ablem.jpg"
                       />
                     </a>
 
-                    <a
-                      className="link-tesla"
-                      href="https://www.boringcompany.com/"
-                      target="_blank"
-                    >
+                    <a href="https://www.boringcompany.com/" target="_blank">
                       <img
-                        className="img-theb"
+                        className="img-theb h-[100px]"
                         src={Theboroimage}
                         alt="theboroing.png"
                       />
                     </a>
 
-                    <a
-                      className="link-tesla"
-                      href="https://www.twitter.com/"
-                      target="_blank"
-                    >
+                    <a href="https://www.twitter.com/" target="_blank">
                       <img
-                        className="img-twitter"
+                        className="img-twitter h-[250px]"
                         src={Twitterimage}
                         alt="twitter.png"
                       />
                     </a>
 
-                    <a
-                      className="link-tesla"
-                      href="https://www.spacex.com/"
-                      target="_blank"
-                    >
+                    <a href="https://www.spacex.com/" target="_blank">
                       <img
-                        className="img-spacex"
+                        className="img-spacex h-[250px]"
                         src={Spaceximage}
                         alt="spacex.jpg"
                       />
                     </a>
 
-                    <a
-                      className="link-tesla"
-                      href="https://openai.com/"
-                      target="_blank"
-                    >
+                    <a href="https://openai.com/" target="_blank">
                       <img
-                        className="img-open"
+                        className="img-open h-[250px]"
                         src={Openİmage}
                         alt="open.png"
                       />
